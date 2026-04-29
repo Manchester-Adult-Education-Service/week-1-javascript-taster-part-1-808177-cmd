@@ -88,6 +88,13 @@ console.log("-------------------------------------------");
 // }
 
 // Write your code below:
+let password = "JS123";
+
+if (password === "JS123") {
+     console.timeLog("Access Granted");
+} else {
+     console.log("cool choice.");
+}
 
 
 
