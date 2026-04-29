@@ -132,6 +132,8 @@ console.log("-------------------------------------------");
 // Print that number multiplied by itself.
 
 // Write your code below:
+let myNumber = 5;
+console.log(myNumber * myNumber);
 
 
 
@@ -146,6 +148,13 @@ console.log("-------------------------------------------");
 // Check IF the userAnswer variable is 10, add 10 to the score variable and print the new total.
 
 // Write your code below:
+let score = 0;
+let userAnswer = 10;
+
+if (userAnswer === 10) {
+     score = score + 10;
+     console.log(score);
+}
 
 
 
@@ -160,6 +169,11 @@ console.log("-------------------------------------------");
 // If the word is longer than 5 letters, print "That's a long word!"
 
 // Write your code below:
+let myWord = "JavaScript";
+
+if (myWord.length > 5) {
+     console.log("That's a long word!");
+}
 
 
 
