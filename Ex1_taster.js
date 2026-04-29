@@ -36,6 +36,11 @@ console.log("-------------------------------------------");
 // console.log("I love " + food);
 
 // Write your code below:
+console.log("Welcome to Javascript")
+let user_name = "Ikram";
+console.log("Hello " + user_name);
+console.log(`Hello $ {user_name}`);
+
 
 
 
@@ -58,6 +63,11 @@ console.log("-------------------------------------------");
 // let fruit_bowl = apples + oranges;
 
 // Write your code below:
+let apples = 2;
+let oranges = 4;
+let fruit_bowl = apples + oranges;
+
+console.log(total);
 
 
 
@@ -83,6 +93,13 @@ console.log("-------------------------------------------");
 // }
 
 // Write your code below:
+let password = "JS123";
+
+if (password === "JS123") {
+     console.timeLog("Access Granted");
+} else {
+     console.log("cool choice.");
+}
 
 
 
@@ -115,6 +132,8 @@ console.log("-------------------------------------------");
 // Print that number multiplied by itself.
 
 // Write your code below:
+let myNumber = 5;
+console.log(myNumber * myNumber);
 
 
 
@@ -129,6 +148,13 @@ console.log("-------------------------------------------");
 // Check IF the userAnswer variable is 10, add 10 to the score variable and print the new total.
 
 // Write your code below:
+let score = 0;
+let userAnswer = 10;
+
+if (userAnswer === 10) {
+     score = score + 10;
+     console.log(score);
+}
 
 
 
@@ -143,6 +169,11 @@ console.log("-------------------------------------------");
 // If the word is longer than 5 letters, print "That's a long word!"
 
 // Write your code below:
+let myWord = "JavaScript";
+
+if (myWord.length > 5) {
+     console.log("That's a long word!");
+}
 
 
 
@@ -180,6 +211,25 @@ Create a chatbot logic that uses nested IF statements and a 'status' check.
 */
 
 // Write your code below:
+let userMood = "tired";
+let hoursSleep = 5;
+
+if (userMood === "tired") {
+     if (hoursSleep < 6) {
+          console.log("Go to bed!")
+     } else {
+          console.log("Maybe you need more caffeine?");
+     } else if (userMood === "happy") {
+     let likesPizza = true;
+     if (likesPizza === true) {
+          console.log("Order a Margherita!")
+     } else {
+          console.log("How about a salad?");
+     }
+} else {
+     console.log("I'm not sure how to help with that mood yet.");
+}
+
 
 
 
