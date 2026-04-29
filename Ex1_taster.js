@@ -63,6 +63,11 @@ console.log("-------------------------------------------");
 // let fruit_bowl = apples + oranges;
 
 // Write your code below:
+let apples = 2;
+let oranges = 4;
+let fruit_bowl = apples + oranges;
+
+console.log(total);
 
 
 
